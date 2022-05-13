@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.slide{
+	width: 100vw;
+	height: 100vw;
+}
+.wrapper{
+	display: flex;
+	width: 100vw;
+	transform: rotate(90deg)translateY(-100vh);
+	transform-origin: top left;
+}
+.one{
+	background: #F1C40F;
+}
+
+.outer-wrapper{
+	width: 100vh;
+	height: 100vw;
+	transform: rotate(-90deg)translateX(-100vh);
+	transform-origin: top left;
+	overflow-x: hidden;
+	position: absolute;
+}
+
+p.title{
+        font-size: 90px;
+        color: white;
+        padding: 14px 60px;
+}
+
+p.text{
+        font-size: 18px;
+        color: white;
+        padding: 14px 30px;
+}
+.container{
+        display: inline-block;
+        width: 40vh;
+        height: 55vh;
+        overflow: hidden;
+        margin-top: 5vh;
+        margin-right: 7vh;
+        margin-left: 7vh;   
+        box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.3);  
+        background-color: #ffffff;
+        border-radius: 7px;
+}
+
+#img-1{
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        height: 40%;
+        background-image: url(images-2/cityexp.jpg);
+        background-size: cover;
+}
+
+#img-2{
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        height: 40%;
+        background-image: url(images-2/grivp.jpg);
+        background-size: cover;
+}
+
+#img-3{
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        height: 40%;
+        background-image: url(images-2/bluebay.jpg);
+        background-size: cover;
+}
+
+#img-4{
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        height: 40%;
+        background-image: url(images-2/cityexp.jpg);
+        background-size: cover;
+}
+
+.heading{
+        font-family: 'Lato', sans-serif;
+        font-weight: 780;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 4px;
+}
+
+.content{
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        height: 59%;
+}
+
+p.cali{
+        padding: 4px 8px;
+        color: #F1B30F;
+}
+
+p.price{
+        padding: 4px 8px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 780;
+        font-size: 16px;
+}
+
+.adress{
+        font-size: 14px;
+        padding: 4px 10px;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 16px;
+}

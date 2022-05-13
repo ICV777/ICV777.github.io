@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<html>
+  <head>
+    <meta charset="UTF-8">
+	 <title>
+	     Reserva
+	 </title>
+	 <link rel="stylesheet" type="text/css" href="css/style-4.css">
+  </head>
+  <body>
+
+<h1>Reserve su hotel</h1>
+
+<div class="contenedor">
+<form>
+  <label for="hotel">Selecciona el hotel que quieres reservar</label><br>
+   <select name="select">
+     <option value="value0" selected>Seleccionar</option>
+     <option value="value1">City Express Playa del Carmen</option>
+     <option value="value2">Grand Riviera Princess</option>
+     <option value="value3">BlueBay Grand Esmeralda</option>
+     <option value="value4">Occidental at Xcaret Destination</option>
+   </select> <br><br>
+
+  <label for="datein">Fecha de ingreso:</label><br>
+  <input type="text" class="day" name="dayin"> / <input type="text" class="month" name="monthin">  / <input type="text" class="year" name="yearin"><br><br>
+  <label for="dateout">Fecha de salida:</label><br>
+  <input type="text" class="day" name="dayout"> / <input type="text" class="month" name="monthout">  / <input type="text" class="year" name="yearout"><br><br>
+  <label for="ha">Habitación:</label><br>
+  <input type="text" id="hab" name="habit"><br><br>
+</form>
+</div>
+
+<div class="contenedor-2">
+<form>
+  <label for="fname">Nombres:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Apellidos:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="fname">Numero de adultos:</label><br>
+  <input type="text" class="num" name="numa"><br><br>
+  <label for="lname">Numero de niños:</label><br>
+  <input type="text" class="num" name="numni"><br><br>
+</div>
+<div class="boton">
+  <button type="submit">Enviar</button>
+</div>
+</form>
+  </body>
+</html>
